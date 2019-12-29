@@ -1,5 +1,8 @@
+@import "~antd/dist/antd.css";
+
 .App {
-  text-align: center;
+  font-family: sans-serif;
+  /*text-align: center;*/
 }
 
 .App-logo {
@@ -26,6 +29,14 @@
 
 .App-link {
   color: #61dafb;
+}
+
+thead[class*="ant-table-thead"] th, .ant-table-row-cell-break-word, .ant-tabs-nav-container{
+  text-align: center;
+}
+
+.ant-tabs-tabpane .ant-btn {
+  margin-left: 22%
 }
 
 @keyframes App-logo-spin {
